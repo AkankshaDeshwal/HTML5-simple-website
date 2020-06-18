@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>All Places</title>
+		<link rel="stylesheet" type="text/css" href="mycss.css">
+		<script type="text/javascript" src="canvasDesign.js"></script>
+		
+	</head>
+	
+	<body onload="makeCanvas()">
+		<canvas id="top" width="1400" height="70"></canvas>
+		<h3><span>Spend your vacation anywhere around the world!</span></h3>
+		<p class="para">
+			<a href="home.html">Home</a> &emsp; &emsp; <a href="packages.html">Packages</a> &emsp; &emsp; Flights &emsp; &emsp; Offers &emsp; &emsp; <a href="login.html">Login</a> &emsp; &emsp; <a href="contactus.html">Contact Us</a> &emsp;
+		</p><br>
+		
+		<div style="padding:0px 50px;">
+		<div style="float:left;">
+		<section class="block">
+		
+		<p class="title">Season Specials</p>
+		
+		<ul style="font-size:20px;">
+			<li>Paris</li>
+			<li>Venice</li>
+			<li>Vancouver</li>
+			<li>Phillipines</li>
+			<li>Amsterdam</li>
+			<li>New York</li>
+			<li>Chicago</li>
+		</ul>
+		</section><br>
+		<div class="block">
+			<table style="margin-left: auto; margin-right: auto;">
+				<tr>
+					<td><img src="images//paris.jpg" alt="Paris" width="200" height="200"></td>
+					<td><img src="images//venice.jpg" alt="Venice" width="200" height="200"></td>
+				</tr>
+				<tr>
+					<td><img src="images//amster.jpg" alt="Amsterdam" width="200" height="200"></td>
+					<td><img src="images//new.jpg" alt="New York" width="200" height="200"></td>
+				</tr>
+				<tr>
+					<td><img src="images//van.jpg" alt="Vancouver" width="200" height="200"></td>
+					<td><img src="images//phil.jpg" alt="Phillipines" width="200" height="200"></td></td>
+				</tr>
+			</table>
+		</div>
+		</div>
+		
+		<div class="box" style="margin-left:480px; height:1018px; padding:10px;">
+		
+			<p class="title">Hotel reviews help you find your ideal hotel</p>
+Over 175 million aggregated hotel ratings and more than 19 million images allow you to find out more about where you're travelling. To get an extended overview of a hotel property, All_Places.com shows the average rating and extensive reviews from other booking sites, e.g. Hotels.com, Expedia, Agoda, leading hotels, etc. All_Places.com makes it easy for you to find information about your trip to Dubai, including the ideal hotel for you.
+			<br><br>
+			<p class="title">How to book</p>
+All_Places.com is a hotel search with an extensive price comparison. The prices shown come from numerous hotels and booking websites. This means that while users decide on All_Places.com which hotel best suits their needs, the booking process itself is completed through the booking sites (which are linked to our website). By clicking on the “view deal” button, you will be forwarded onto a booking site where you can complete the reservation for the hotel deal found on All_Places.com.
+
+Let All_Places.com help you to find the right price from over 400 booking sites!
+			<br><br>
+			<p>
+			<video id="vd" width="500" height="350" controls>
+				<source src="images//video.mp4" type="video/mp4">
+				Please update your browser.
+			</video>
+			
+			<div style="width:400px">
+				<button onclick="playPause()">Play/Pause</button>
+				<button onclick="makeBig()">Big</button>
+				<button onclick="makeSmall()">Small</button>
+				<button onclick="makeNormal()">Normal</button>
+			</div>
+			</p>
+			<script>
+			 // video buttons script
+
+var myvideo = document.getElementById("vd");
+
+function playPause()
+{
+	if(myvideo.paused)
+	{
+		myvideo.play();
+	}
+	else
+	{
+		myvideo.pause();
+	}
+}
+
+function makeSmall()
+{
+	myvideo.width = 400;
+}
+
+function makeBig()
+{
+	myvideo.width = 600;
+}
+
+function makeNormal()
+{
+	myvideo.width = 500;
+}
+			</script>
+		</div>
+		</div>
+		
+		<footer>
+			Copyright:2015(All Rights Reserved)
+		</footer>
+	</body>
+</html>

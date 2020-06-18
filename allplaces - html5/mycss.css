@@ -1,0 +1,90 @@
+body {
+  color: #ffffee;
+  background: #d1e2c2;
+}
+
+.para {
+  background: #102928;
+  color: #fff;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 10px;
+  border: 2px solid #000000;
+}
+
+.block {
+  background: #102928;
+  padding: 10px;
+  color: #fff;
+  width: 430px;
+  border: 2px solid #000000;
+}
+
+span {
+  font-family: "Comic sans MS";
+  font-size: 15px;
+  color: #333;
+  margin-left: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.box {
+  border: 2px solid #000000;
+  background: #102928;
+}
+
+li {
+  border-bottom: 1px dashed #ffffff;
+  padding: 5px;
+}
+
+.table {
+  padding: 10px;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.row {
+  border-bottom: 2px dashed #000000;
+  padding: 10px;
+}
+
+footer {
+  color: #000;
+  text-align: center;
+  margin: 20px;
+}
+
+#top {
+  background: #102928;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.title {
+  background: #6f4e37;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+}
+#content {
+  margin-left: 480px;
+  height: 1018px;
+  padding: 10px;
+  border: 2px solid #000000;
+  background: #102928;
+}
